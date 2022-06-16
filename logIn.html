@@ -14,19 +14,28 @@
     <section class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
             <div class="lg:w-2/5 bg-gray-100 rounded-lg p-8 flex flex-col place-self-center">
-                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Log In</h2>
+
                 <div class="relative mb-4">
                     <label for="username" class="leading-7 text-sm text-gray-600">Username</label>
                     <input type="email" id="username" name="username"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
                 <div class="relative mb-4">
                     <label for="pw" class="leading-7 text-sm text-gray-600">Password</label>
                     <input type="password" id="pw" name="pw"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="domain" class="leading-7 text-sm text-gray-600">Domain</label>
+                    <select name="domain" id="domain"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        <option value="user">User</option>
+                        <option value="company">Company</option>
+                        <option value="admin">Admin</option>
+                    </select>
                 </div>
                 <button
-                    class="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">Log
+                    class="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Log
                     In</button>
                 <p class="text-xs text-gray-500 mt-3">Don't have an account? Please go back and sign up.</p>
             </div>

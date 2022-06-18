@@ -1,0 +1,25 @@
+{
+  "name": "pocathon",
+  "version": "1.0.0",
+  "description": "Yay làm thui mn",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngoclma/POCathon_1235.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngoclma/POCathon_1235/issues"
+  },
+  "homepage": "https://github.com/ngoclma/POCathon_1235#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
+  }
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg shadow-lg py-2 bg-gray-50 relative flex items-center w-full justify-between">
+        <div class="px-6">
+            <button
+                class="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentX"
+                aria-controls="navbarSupportedContentX" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-5" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                    </path>
+                </svg>
+            </button>
+            <div class="navbar-collapse collapse grow items-center" id="navbarSupportedContentX">
+                <ul class="navbar-nav mr-auto flex flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                            href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Regular link</a>
+                    </li>
+                    <li class="nav-item dropdown static">
+                        <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out dropdown-toggle flex items-center whitespace-nowrap"
+                            href="#" data-mdb-ripple="true" data-mdb-ripple-color="light" type="button"
+                            id="dropdownMenuButtonX" data-bs-toggle="dropdown" aria-expanded="false">Mega menu
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down"
+                                class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                    d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z">
+                                </path>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu w-full mt-0 hidden shadow-lg bg-white absolute left-0 top-full"
+                            aria-labelledby="dropdownMenuButtonX">
+                            <div class="px-6 lg:px-8 py-5">
+                                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                                    <div class="bg-white text-gray-600">
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Lorem
+                                            ipsum</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Dolor
+                                            sit</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Amet
+                                            consectetur</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Cras
+                                            justo odio</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Adipisicing
+                                            elit</a>
+                                    </div>
+                                    <div class="bg-white text-gray-600">
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Explit
+                                            voluptas</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Perspiciatis
+                                            quo</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Cras
+                                            justo odio</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Laudant
+                                            maiores</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Provident
+                                            dolor</a>
+                                    </div>
+                                    <div class="bg-white text-gray-600">
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Iste
+                                            quaerato</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Cras
+                                            justo odio</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Est
+                                            iure</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Praesentium</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Laboriosam</a>
+                                    </div>
+                                    <div class="bg-white text-gray-600">
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Cras
+                                            justo odio</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Saepe</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Vel
+                                            alias</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Sunt
+                                            doloribus</a>
+                                        <a href="#!" aria-current="true"
+                                            class="block px-6 py-2 w-full hover:bg-gray-50 hover:text-gray-700 transition duration-150 ease-in-out">Cum
+                                            dolores</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="px-6
+py-2.5
+bg-blue-600
+text-white
+font-medium
+text-xs
+leading-tight
+uppercase
+rounded
+shadow-md
+hover:bg-blue-700 hover:shadow-lg
+focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+active:bg-blue-800 active:shadow-lg
+transition
+duration-150
+ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+        id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog relative w-auto pointer-events-none">
+            <div
+                class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+                <div
+                    class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                    <h5 class="text-xl font-medium leading-normal text-gray-800" id="exampleModalLabel">Modal title</h5>
+                    <button type="button"
+                        class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body relative p-4">
+                    Modal body text goes here.
+                </div>
+                <div
+                    class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
+                    <button type="button" class="px-6
+    py-2.5
+    bg-purple-600
+    text-white
+    font-medium
+    text-xs
+    leading-tight
+    uppercase
+    rounded
+    shadow-md
+    hover:bg-purple-700 hover:shadow-lg
+    focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0
+    active:bg-purple-800 active:shadow-lg
+    transition
+    duration-150
+    ease-in-out" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="px-6
+py-2.5
+bg-blue-600
+text-white
+font-medium
+text-xs
+leading-tight
+uppercase
+rounded
+shadow-md
+hover:bg-blue-700 hover:shadow-lg
+focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+active:bg-blue-800 active:shadow-lg
+transition
+duration-150
+ease-in-out
+ml-1">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        /* Styles required only for the example above */
+        .scrollspy-example {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+    </style>
+
+    <div class="grid grid-cols-3">
+        <div class="col-span-2">
+            <div data-bs-spy="scroll" data-bs-target="#scrollspy1" data-bs-offset="200" class="scrollspy-example">
+                <section id="example-1">
+                    <h3 class="text-xl font-semibold pt-5 pb-3">Section 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                        minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                        quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                        minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                        quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                    </p>
+                </section>
+                <section id="example-2">
+                    <h3 class="text-xl font-semibold pt-5 pb-3">Section 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                        minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                        quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                        minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                        quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                    </p>
+                </section>
+                <section id="example-3">
+                    <h3 class="text-xl font-semibold pt-5 pb-3">Section 3</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                        minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                        quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                        minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                        quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                    </p>
+                    <section id="example-sub-A">
+                        <h3 class="text-xl font-semibold pt-5 pb-3">Subsection A</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                            minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                            quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                            minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                            quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                        </p>
+                    </section>
+                    <section id="example-sub-B">
+                        <h3 class="text-xl font-semibold pt-5 pb-3">Subsection B</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                            minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                            quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                            minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                            quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                        </p>
+                    </section>
+                </section>
+                <section id="example-4">
+                    <h3 class="text-xl font-semibold pt-5 pb-3">Section 4</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                        minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                        quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum natus vel
+                        minima quod error maxime, molestias ut. Fuga dignissimos nisi nemo necessitatibus
+                        quisquam obcaecati et reiciendis quaerat accusamus numquam.
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <div>
+            <!-- Scrollspy -->
+            <div id="scrollspy1" class="sticky-top pl-3 text-sm">
+                <ul class="nav nav-pills menu-sidebar">
+                    <li class="py-1">
+                        <a class="nav-link" href="#example-1">Section 1</a>
+                    </li>
+                    <li class="py-1">
+                        <a class="nav-link" href="#example-2">Section 2</a>
+                    </li>
+                    <li class="py-1">
+                        <a class="nav-link" href="#example-3">Section 3</a>
+                        <ul class="nav flex-column pl-3">
+                            <li class="py-1">
+                                <a class="nav-link" href="#example-sub-A">Subsection A</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#example-sub-B">Subsection B</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="py-1">
+                        <a class="nav-link" href="#example-4">Section 4</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Scrollspy -->
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+            <div class="carousel-item active relative float-left w-full">
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg" class="block w-full" alt="..." />
+                <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item relative float-left w-full">
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg" class="block w-full" alt="..." />
+                <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item relative float-left w-full">
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg" class="block w-full" alt="..." />
+                <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+            type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+            type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+
+</html>

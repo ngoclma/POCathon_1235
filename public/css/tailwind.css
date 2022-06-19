@@ -4254,6 +4254,11 @@ textarea.form-control.is-invalid {
   margin-bottom: 0.75rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -4267,11 +4272,6 @@ textarea.form-control.is-invalid {
 .-my-8 {
   margin-top: -2rem;
   margin-bottom: -2rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .mb-4 {
@@ -4310,12 +4310,12 @@ textarea.form-control.is-invalid {
   margin-top: 2.5rem;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .mt-6 {
@@ -4674,14 +4674,6 @@ textarea.form-control.is-invalid {
   border-right-width: 0px;
 }
 
-.border-b {
-  border-bottom-width: 1px;
-}
-
-.border-t {
-  border-top-width: 1px;
-}
-
 .border-b-0 {
   border-bottom-width: 0px;
 }
@@ -4692,6 +4684,14 @@ textarea.form-control.is-invalid {
 
 .border-b-2 {
   border-bottom-width: 2px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-none {
@@ -4902,6 +4902,11 @@ textarea.form-control.is-invalid {
   padding-bottom: 1.5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -4910,11 +4915,6 @@ textarea.form-control.is-invalid {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .py-2\.5 {
@@ -4942,6 +4942,10 @@ textarea.form-control.is-invalid {
   padding-bottom: 2rem;
 }
 
+.pl-0 {
+  padding-left: 0px;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -4960,10 +4964,6 @@ textarea.form-control.is-invalid {
 
 .pl-3 {
   padding-left: 0.75rem;
-}
-
-.pl-0 {
-  padding-left: 0px;
 }
 
 .text-left {
@@ -5042,12 +5042,12 @@ textarea.form-control.is-invalid {
   line-height: 1.625;
 }
 
-.leading-none {
-  line-height: 1;
-}
-
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-none {
+  line-height: 1;
 }
 
 .leading-normal {
@@ -5288,6 +5288,11 @@ textarea.form-control.is-invalid {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-green-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(22 101 52 / var(--tw-bg-opacity));
@@ -5321,11 +5326,6 @@ textarea.form-control.is-invalid {
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gray-700:hover {
@@ -5373,13 +5373,13 @@ textarea.form-control.is-invalid {
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
+.focus\:border-transparent:focus {
+  border-color: transparent;
+}
+
 .focus\:border-blue-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
-}
-
-.focus\:border-transparent:focus {
-  border-color: transparent;
 }
 
 .focus\:bg-blue-700:focus {
